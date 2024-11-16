@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .color-options {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .colorbox {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border: 2px solid black;
+  }
+  
+  .colorbox[data-color="gray"] {
+    background-color: gray;
+  }
+  
+  .colorbox[data-color="white"] {
+    background-color: white;
+  }
+  
+  .colorbox[data-color="blue"] {
+    background-color: blue;
+  }
+  
+  .colorbox[data-color="yellow"] {
+    background-color: yellow;
+  }
+  
+  p {
+    font-size: 16px;
+  }
+  
